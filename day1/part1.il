@@ -119,6 +119,7 @@
 		stloc 4
 		
 		PARSE_LOOP_BEGIN:
+			ldloc 4
 			ldloc.3
 			ldlen
 			conv.i4
