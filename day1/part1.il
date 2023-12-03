@@ -52,12 +52,12 @@
 		ldloc.0
 		ldc.i4.0
 		ldarg.0
-		stelem.i4
+		stelem.i2
 		
 		ldloc.0
 		ldc.i4.1
 		ldarg.1
-		stelem.i4
+		stelem.i2
 		
 		ldloc.0
 		newobj instance void [mscorlib]System.String::.ctor(char[])
